@@ -1,4 +1,4 @@
-import MyComp from "./MyComp";
+import MyComp from "./practice/MyComp";
 
 function App(){
   return (
