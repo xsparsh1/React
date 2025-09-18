@@ -10,7 +10,7 @@ function MyComp(){
         <legend>Im sparsh</legend>
         <p>Im a 20yr old boy .</p>
       </fieldset>
-
+      
       <OnClick/>
     </div>
   );

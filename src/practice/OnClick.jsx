@@ -23,6 +23,7 @@
 // }
 // export default OnClick;
 
+
 function OnClick(){
     function func(age){
         alert(`My age is ${age}`) ;
