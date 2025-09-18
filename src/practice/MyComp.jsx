@@ -1,4 +1,5 @@
 import OnClick from "./onClick";
+import Toggle from "./Toggle";
 
 
 function MyComp(){
@@ -10,8 +11,9 @@ function MyComp(){
         <legend>Im sparsh</legend>
         <p>Im a 20yr old boy .</p>
       </fieldset>
-      
+
       <OnClick/>
+      <Toggle/>
     </div>
   );
 }
