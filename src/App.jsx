@@ -1,9 +1,11 @@
 import LoadBaseInfo from "./practice/MountFiles/LoadBaseInfo";
+import LoadProps from "./practice/MountFiles/LoadProps";
 
 function App(){
   return (
     <div>
-        <LoadBaseInfo/>
+        {/* <LoadBaseInfo/> */}
+        <LoadProps/>
   </div>
   );
 }
