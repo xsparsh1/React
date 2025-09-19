@@ -1,10 +1,9 @@
-import MyComp from "./practice/MyComp";
-import VarUse from "./practice/VarUse";
+import LoadBaseInfo from "./practice/LoadBaseInfo";
+
 function App(){
   return (
     <div>
-      <MyComp/>
-      <VarUse/>
+        <LoadBaseInfo/>
   </div>
   );
 }

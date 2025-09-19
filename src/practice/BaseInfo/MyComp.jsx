@@ -1,4 +1,4 @@
-import OnClick from "./onClick";
+import OnClick from "./OnClick";
 import Toggle from "./Toggle";
 
 
