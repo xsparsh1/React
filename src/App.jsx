@@ -1,4 +1,4 @@
-import LoadBaseInfo from "./practice/LoadBaseInfo";
+import LoadBaseInfo from "./practice/MountFiles/LoadBaseInfo";
 
 function App(){
   return (
