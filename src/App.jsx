@@ -1,11 +1,13 @@
-import LoadBaseInfo from "./practice/MountFiles/LoadBaseInfo";
-import LoadProps from "./practice/MountFiles/LoadProps";
+import GetInput from "./practice/InputFeild/GetInput";
+import LoadBaseInfo from "./practice/MountFilesProps/LoadBaseInfo";
+import LoadProps from "./practice/MountFilesProps/LoadProps";
 
 function App(){
   return (
     <div>
         {/* <LoadBaseInfo/> */}
-        <LoadProps/>
+        {/* <LoadProps/> */}
+        <GetInput/>
   </div>
   );
 }
