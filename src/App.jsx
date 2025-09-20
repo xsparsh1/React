@@ -6,8 +6,6 @@ function App(){
     <div>
         {/* <LoadBaseInfo/> */}
         <LoadProps/>
-
-        dydndr
   </div>
   );
 }
