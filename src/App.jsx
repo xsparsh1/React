@@ -5,17 +5,19 @@ import Radio_DropDown from "./practice/InputFeild/Radio_DropDown";
 import LoadBaseInfo from "./practice/MountFilesProps/LoadBaseInfo";
 import LoadProps from "./practice/MountFilesProps/LoadProps";
 import ForLoop from "./practice/ForLoopInJsx/forLoop";
-
+import CompInLoop from "./practice/ForLoopInJsx/CompInLoop";
+//CC - Controlled Components.
 function App(){
   return (
     <div>
         {/* <LoadBaseInfo/> */}
         {/* <LoadProps/> */}
         {/* <GetInput/> */}
-        {/* <CC/> */}
+        {/* <CC/> */}     
         {/* <Checkbox/> */}
         {/* <Radio_DropDown/> */}
-        <ForLoop/>
+        {/* <ForLoop/> */}
+        <CompInLoop/>
   </div>
   );
 }
