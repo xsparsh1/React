@@ -6,6 +6,7 @@ import LoadBaseInfo from "./practice/MountFilesProps/LoadBaseInfo";
 import LoadProps from "./practice/MountFilesProps/LoadProps";
 import ForLoop from "./practice/ForLoopInJsx/forLoop";
 import CompInLoop from "./practice/ForLoopInJsx/CompInLoop";
+import NestedLoop from "./practice/ForLoopInJsx/NestedLoop";
 //CC - Controlled Components.
 function App(){
   return (
@@ -17,7 +18,8 @@ function App(){
         {/* <Checkbox/> */}
         {/* <Radio_DropDown/> */}
         {/* <ForLoop/> */}
-        <CompInLoop/>
+        {/* <CompInLoop/> */}
+        <NestedLoop/>
   </div>
   );
 }
