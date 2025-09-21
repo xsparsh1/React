@@ -1,6 +1,8 @@
 import {useState} from"react";
 import "./CC.css";
 function CC(){
+
+    //Each state is associated with single input feild making it controlled comp.
     const [name,setName]=useState("");
     const [password,setPassword]=useState("");
     const [gmail,setGmail]=useState("");
@@ -26,6 +28,7 @@ function CC(){
         }
     }
 
+    // Adding validation to input data.
     const validate=()=>{
         let valid=true;
 
@@ -57,7 +60,7 @@ function CC(){
 
     
     const handleSubmit=(event)=>{
-        event.preventDefault();
+        event.preventDefault();       //used to prevent default behaviour of browser to reload on submission.
         if(validate())
         setSubmit(true);
     }
@@ -80,8 +83,8 @@ function CC(){
                         <button type="submit">Submit</button>
                     </div>
                 ):(<div>
+                    {/*2nd case is used to prevent user to edit form after one submission.*/}
                     <input type="text" value={name} name="name" placeholder="Enter your name"/>
-                        {/* in React, we don’t need an arrow function just to pass the event. React automatically passes the event object to the handler */}
                         <br/>
                         <input type="password" value={password} name="password" placeholder="Enter password"/>
                         <br/>
