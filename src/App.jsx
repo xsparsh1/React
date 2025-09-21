@@ -7,6 +7,7 @@ import LoadProps from "./practice/MountFilesProps/LoadProps";
 import ForLoop from "./practice/ForLoopInJsx/forLoop";
 import CompInLoop from "./practice/ForLoopInJsx/CompInLoop";
 import NestedLoop from "./practice/ForLoopInJsx/NestedLoop";
+import Effect from "./practice/UseEffect/Effect";
 //CC - Controlled Components.
 function App(){
   return (
@@ -19,7 +20,8 @@ function App(){
         {/* <Radio_DropDown/> */}
         {/* <ForLoop/> */}
         {/* <CompInLoop/> */}
-        <NestedLoop/>
+        {/* <NestedLoop/> */}
+        <Effect/>
   </div>
   );
 }
