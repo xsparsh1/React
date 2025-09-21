@@ -2,7 +2,7 @@ import {useState} from"react";
 import "./CC.css";
 function CC(){
 
-    //Each state is associated with single input feild making it controlled comp.
+    //Each state is associated with single input field making it controlled comp.
     const [name,setName]=useState("");
     const [password,setPassword]=useState("");
     const [gmail,setGmail]=useState("");
