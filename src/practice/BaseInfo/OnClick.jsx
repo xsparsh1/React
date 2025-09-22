@@ -17,7 +17,7 @@
 //     }
 //     return (
 //         <div>
-//             <button onClick={func}>Im a bca Student at </button>  //we cant param here , so how to pass params?
+//             <button onClick={func}>Im a bca Student at </button>  //we cant pass param here , so how to pass params?
 //         </div>
 //     )
 // }
