@@ -10,6 +10,8 @@ import NestedLoop from "./practice/ForLoopInJsx/NestedLoop";
 import Effect from "./practice/UseEffect/Effect";
 import PropsPass from "./practice/UseEffect/PropsPass";
 import PassComp from "./practice/LifeCycle/PassComp";
+import InlineStyle from "./ReactStyles/InlineStyle/InlineStyle";
+import InternalStyle from "./ReactStyles/InlineStyle/InternalStyle";
 //CC - Controlled Components.
 function App(){
   return (
@@ -25,7 +27,9 @@ function App(){
         {/* <NestedLoop/> */}
         {/* <Effect/> */}
         {/* <PropsPass/> */}
-        <PassComp/>
+        {/* <PassComp/> */}
+        {/* <InlineStyle/> */}
+        <InternalStyle/>
   </div>
   );
 }
