@@ -10,7 +10,7 @@ function PropsPass(){
     return(
         <div className="div">
             <PropsEffect counter={counter} dec={dec}/>
-            <button onClick={()=>setCounter(counter+1)}>Increment Counter</button>
+            <button onClick={()=>setCounter(counter+1)} style={{margin:"0px 10px"}}>Increment Counter</button>
             <button onClick={()=>setDec(dec-1)}>Decrease Counter</button>
         </div>
     )

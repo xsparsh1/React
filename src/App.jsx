@@ -9,6 +9,7 @@ import CompInLoop from "./practice/ForLoopInJsx/CompInLoop";
 import NestedLoop from "./practice/ForLoopInJsx/NestedLoop";
 import Effect from "./practice/UseEffect/Effect";
 import PropsPass from "./practice/UseEffect/PropsPass";
+import PassComp from "./practice/LifeCycle/PassComp";
 //CC - Controlled Components.
 function App(){
   return (
@@ -23,7 +24,8 @@ function App(){
         {/* <CompInLoop/> */}
         {/* <NestedLoop/> */}
         {/* <Effect/> */}
-        <PropsPass/>
+        {/* <PropsPass/> */}
+        <PassComp/>
   </div>
   );
 }
