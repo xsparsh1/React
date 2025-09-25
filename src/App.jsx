@@ -14,7 +14,10 @@ import InlineStyle from "./ReactStyles/InlineStyle/InlineStyle";
 import InternalStyle from "./ReactStyles/InlineStyle/InternalStyle";
 import DynamicStyles from "./ReactStyles/InlineStyle/DynamicStyles";
 import External from "./ReactStyles/ExternalStyle/External";
+import Test from "./ReactStyles/CssModules/Test";
+
 //CC - Controlled Components.
+
 function App(){
   return (
     <div>
@@ -33,7 +36,8 @@ function App(){
         {/* <InlineStyle/> */}
         {/* <InternalStyle/> */}
         {/* <DynamicStyles/> */}
-        <External/>
+        {/* <External/> */}
+        <Test/>
   </div>
   );
 }
