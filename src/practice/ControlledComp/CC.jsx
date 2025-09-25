@@ -67,28 +67,28 @@ function CC(){
 
     return(
         <div>
-            <form style={{margin:"20px",color:"black"}} onSubmit={handleSubmit}>
+            <form className="form" style={{margin:"20px",color:"black"}} onSubmit={handleSubmit}>
                 { (!submit)?(
                     <div>
-                        <input type="text" value={name} onChange={handleChange} name="name" placeholder="Enter your name"/>
+                        <input type="text" className="input" value={name} onChange={handleChange} name="name" placeholder="Enter your name"/>
                         {/* in React, we don’t need an arrow function just to pass the event. React automatically passes the event object to the handler */}
                         {ename && <p style={{color:"red"}}>{ename}</p>}
                         <br/>
-                        <input type="password" value={password} onChange={handleChange} name="password" placeholder="Enter password"/>
+                        <input type="password" className="input" value={password} onChange={handleChange} name="password" placeholder="Enter password"/>
                         {epass && <p style={{color:"red"}}>{epass}</p>}
                         <br/>
-                        <input type="email" value={gmail} onChange={handleChange} name="mail" placeholder="Enter you gmail"/>
+                        <input type="email" className="input" value={gmail} onChange={handleChange} name="mail" placeholder="Enter you gmail"/>
                         {email && <p style={{color:"red"}}>{email}</p>}
                         <br/>
                         <button type="submit">Submit</button>
                     </div>
                 ):(<div>
                     {/*2nd case is used to prevent user to edit form after one submission.*/}
-                    <input type="text" value={name} name="name" placeholder="Enter your name"/>
+                    <input type="text" className="input" value={name} name="name" placeholder="Enter your name"/>
                         <br/>
-                        <input type="password" value={password} name="password" placeholder="Enter password"/>
+                        <input type="password" className="input" value={password} name="password" placeholder="Enter password"/>
                         <br/>
-                        <input type="email" value={gmail} name="mail" placeholder="Enter you gmail"/>
+                        <input type="email" className="input" value={gmail} name="mail" placeholder="Enter you gmail"/>
                         <br/>
                         <button type="button">Submit</button>
                 </div>)}   

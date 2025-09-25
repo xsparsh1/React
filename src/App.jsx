@@ -18,6 +18,7 @@ import Test from "./ReactStyles/CssModules/Test";
 import StyledComp from "./ReactStyles/StyledComp/StyledComp";
 import Bootstrap from "./ReactStyles/ReactBootstrap/Bootstrap";
 import Ref from "./practice/UseRef/Ref";
+import UncontrolledComp from "./practice/UncontrolledComp/UncontrolledComp";
 
 
 //CC - Controlled Components.
@@ -44,7 +45,8 @@ function App(){
         {/* <Test/> */}
         {/* <StyledComp/> */}
         {/* <Bootstrap/> */}
-        <Ref/>
+        {/* <Ref/> */}
+        <UncontrolledComp/>
   </div>
   );
 }

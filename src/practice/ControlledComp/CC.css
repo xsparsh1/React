@@ -1,9 +1,9 @@
-form{
+.form{
     position: absolute;
     top:150px;
     left:500px;
 }
-input{
+.input{
     margin:20px 0px;
     font-size: 40px;
 }
