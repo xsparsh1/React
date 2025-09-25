@@ -1,3 +1,5 @@
+//install : npm install styled-components
+
 import styled from "styled-components";             //1. npm install styled-components
 
 function StyledComp(){
@@ -13,7 +15,7 @@ function StyledComp(){
     position:relative;
     left:730px;
     margin-top:20px`;
-    
+
     return(
         <div>
             <h1 style={{textAlign:'center'}}>Welcome to my Styled Comp</h1>
