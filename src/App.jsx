@@ -17,6 +17,7 @@ import External from "./ReactStyles/ExternalStyle/External";
 import Test from "./ReactStyles/CssModules/Test";
 import StyledComp from "./ReactStyles/StyledComp/StyledComp";
 import Bootstrap from "./ReactStyles/ReactBootstrap/Bootstrap";
+import Ref from "./practice/UseRef/Ref";
 
 
 //CC - Controlled Components.
@@ -42,7 +43,8 @@ function App(){
         {/* <External/> */}
         {/* <Test/> */}
         {/* <StyledComp/> */}
-        <Bootstrap/>
+        {/* <Bootstrap/> */}
+        <Ref/>
   </div>
   );
 }
