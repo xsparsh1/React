@@ -15,6 +15,7 @@ import InternalStyle from "./ReactStyles/InlineStyle/InternalStyle";
 import DynamicStyles from "./ReactStyles/InlineStyle/DynamicStyles";
 import External from "./ReactStyles/ExternalStyle/External";
 import Test from "./ReactStyles/CssModules/Test";
+import StyledComp from "./ReactStyles/StyledComp/StyledComp";
 
 //CC - Controlled Components.
 
@@ -37,7 +38,8 @@ function App(){
         {/* <InternalStyle/> */}
         {/* <DynamicStyles/> */}
         {/* <External/> */}
-        <Test/>
+        {/* <Test/> */}
+        <StyledComp/>
   </div>
   );
 }
