@@ -22,6 +22,7 @@ import UncontrolledComp from "./practice/UncontrolledComp/UncontrolledComp";
 import FuncParent from "./practice/FuncAsProp/FuncParent";
 import ForwardRef from "./practice/UseRef/ForwardRef";
 import UseFormStatus from "./practice/UseFormStatus/UseFormStatus";
+import UseTransition from "./practice/UseTransition/UseTransition";
 
 
 //CC - Controlled Components.
@@ -52,7 +53,8 @@ function App(){
         {/* <UncontrolledComp/> */}
         {/* <FuncParent/> */}
         {/* <ForwardRef/> */}
-        <UseFormStatus/>
+        {/* <UseFormStatus/> */}
+        <UseTransition/>
   </div>
   );
 }
