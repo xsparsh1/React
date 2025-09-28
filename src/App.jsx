@@ -23,6 +23,7 @@ import FuncParent from "./practice/FuncAsProp/FuncParent";
 import ForwardRef from "./practice/UseRef/ForwardRef";
 import UseFormStatus from "./practice/UseFormStatus/UseFormStatus";
 import UseTransition from "./practice/UseTransition/UseTransition";
+import PureComp from "./practice_Part_2/PureComp/PureComp";
 
 
 //CC - Controlled Components.
@@ -54,7 +55,8 @@ function App(){
         {/* <FuncParent/> */}
         {/* <ForwardRef/> */}
         {/* <UseFormStatus/> */}
-        <UseTransition/>
+        {/* <UseTransition/> */}
+        <PureComp/>
   </div>
   );
 }
