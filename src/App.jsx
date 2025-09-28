@@ -20,6 +20,7 @@ import Bootstrap from "./ReactStyles/ReactBootstrap/Bootstrap";
 import Ref from "./practice/UseRef/Ref";
 import UncontrolledComp from "./practice/UncontrolledComp/UncontrolledComp";
 import FuncParent from "./practice/FuncAsProp/FuncParent";
+import ForwardRef from "./practice/UseRef/ForwardRef";
 
 
 //CC - Controlled Components.
@@ -48,7 +49,8 @@ function App(){
         {/* <Bootstrap/> */}
         {/* <Ref/> */}
         {/* <UncontrolledComp/> */}
-        <FuncParent/>
+        {/* <FuncParent/> */}
+        <ForwardRef/>
   </div>
   );
 }

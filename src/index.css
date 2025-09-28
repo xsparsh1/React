@@ -68,7 +68,7 @@ button:focus-visible {
 } */
 
 *{
-  margin:0px;
+  margin:2px;
   padding:0px;
   box-sizing:border-box;
 }
