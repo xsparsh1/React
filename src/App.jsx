@@ -24,6 +24,7 @@ import ForwardRef from "./practice/UseRef/ForwardRef";
 import UseFormStatus from "./practice/UseFormStatus/UseFormStatus";
 import UseTransition from "./practice/UseTransition/UseTransition";
 import PureComp from "./practice_Part_2/PureComp/PureComp";
+import DerivedState from "./practice_Part_2/DerivedState/DerivedState";
 
 
 //CC - Controlled Components.
@@ -56,7 +57,8 @@ function App(){
         {/* <ForwardRef/> */}
         {/* <UseFormStatus/> */}
         {/* <UseTransition/> */}
-        <PureComp/>
+        {/* <PureComp/> */}
+        <DerivedState/>
   </div>
   );
 }
