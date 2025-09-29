@@ -25,6 +25,7 @@ import UseFormStatus from "./practice/UseFormStatus/UseFormStatus";
 import UseTransition from "./practice/UseTransition/UseTransition";
 import PureComp from "./practice_Part_2/PureComp/PureComp";
 import DerivedState from "./practice_Part_2/DerivedState/DerivedState";
+import Parent from "./practice_Part_2/LiftingStateUp/Parent";
 
 
 //CC - Controlled Components.
@@ -58,7 +59,8 @@ function App(){
         {/* <UseFormStatus/> */}
         {/* <UseTransition/> */}
         {/* <PureComp/> */}
-        <DerivedState/>
+        {/* <DerivedState/> */}
+        <Parent/>
   </div>
   );
 }
