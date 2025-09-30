@@ -27,6 +27,7 @@ import PureComp from "./practice_Part_2/PureComp/PureComp";
 import DerivedState from "./practice_Part_2/DerivedState/DerivedState";
 import Parent from "./practice_Part_2/LiftingStateUp/Parent";
 import { Objects } from "./practice_Part_2/Objects/Objects";
+import Array from "./practice_Part_2/ArrayUpdation/Array";
 
 
 //CC - Controlled Components.
@@ -62,7 +63,8 @@ function App(){
         {/* <PureComp/> */}
         {/* <DerivedState/> */}
         {/* <Parent/> */}
-        <Objects/>
+        {/* <Objects/> */}
+        <Array/>
   </div>
   );
 }
