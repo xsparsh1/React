@@ -29,6 +29,7 @@ import Parent from "./practice_Part_2/LiftingStateUp/Parent";
 import { Objects } from "./practice_Part_2/Objects/Objects";
 import Array from "./practice_Part_2/ArrayUpdation/Array";
 import { ActionState } from "./practice_Part_2/UseActionState/ActionState";
+import { Id } from "./practice_Part_2/UseId/Id";
 
 
 //CC - Controlled Components.
@@ -66,7 +67,8 @@ function App(){
         {/* <Parent/> */}
         {/* <Objects/> */}
         {/* <Array/> */}
-        <ActionState/>
+        {/* <ActionState/> */}
+        <Id/>
   </div>
   );
 }
