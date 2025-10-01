@@ -30,6 +30,7 @@ import { Objects } from "./practice_Part_2/Objects/Objects";
 import Array from "./practice_Part_2/ArrayUpdation/Array";
 import { ActionState } from "./practice_Part_2/UseActionState/ActionState";
 import { Id } from "./practice_Part_2/UseId/Id";
+import { Custom } from "./practice_Part_2/CustomHooks/Custom";
 
 
 //CC - Controlled Components.
@@ -68,7 +69,8 @@ function App(){
         {/* <Objects/> */}
         {/* <Array/> */}
         {/* <ActionState/> */}
-        <Id/>
+        {/* <Id/> */}
+        <Custom/>
   </div>
   );
 }
