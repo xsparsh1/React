@@ -32,6 +32,7 @@ import { ActionState } from "./practice_Part_2/UseActionState/ActionState";
 import { Id } from "./practice_Part_2/UseId/Id";
 import { Custom } from "./practice_Part_2/CustomHooks/Custom";
 import { Comp1 } from "./practice_Part_2/ContextApi/1stComp";
+import { MainFile } from "./practice_Part_2/ReactRouter/MainFile";
 
 
 //CC - Controlled Components.
@@ -72,7 +73,8 @@ function App(){
         {/* <ActionState/> */}
         {/* <Id/> */}
         {/* <Custom/> */}
-        <Comp1/>
+        {/* <Comp1/> */}
+        <MainFile/>
   </div>
   );
 }
