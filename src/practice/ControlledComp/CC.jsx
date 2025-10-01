@@ -37,7 +37,6 @@ function CC(){
             valid=false;
         }
        
-
         if(!password){
             setEpass("Password cannot be empty!");
             valid=false;

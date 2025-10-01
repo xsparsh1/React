@@ -30,7 +30,6 @@ function Radio_DropDown(){
                 <option value="Array">Array</option>
                 <option value="LinkedList">LinkedList</option>
                 <option value="Tree">Tree</option>
-                
             </select>
             <h3>You prefer : {topic}</h3>
 

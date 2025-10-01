@@ -10,7 +10,7 @@ function DerivedState(){
         setUsers([...users,user]);                  
     }
 
-    //derived states used instead of separate new state, whixh enhance performance, gets updated due to state changeing rerender.
+    //derived states used instead of separate new state, which enhance performance, gets updated due to state changing rerender.
     const totalUser=users.length;               
     const lastUser=users[users.length-1];
     const uniqueUsers=[...new Set(users)].length;

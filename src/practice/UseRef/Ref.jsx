@@ -22,7 +22,7 @@ function Ref(){
 
     return(
         <div style={style}>
-            <input type="text" ref={inputRef}placeholder="Enter your name "/>
+            <input type="text" ref={inputRef} placeholder="Enter your name "/>
             <button onClick={handleRef}> Focus </button>
         </div>
     )
