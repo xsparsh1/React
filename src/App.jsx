@@ -28,6 +28,7 @@ import DerivedState from "./practice_Part_2/DerivedState/DerivedState";
 import Parent from "./practice_Part_2/LiftingStateUp/Parent";
 import { Objects } from "./practice_Part_2/Objects/Objects";
 import Array from "./practice_Part_2/ArrayUpdation/Array";
+import { ActionState } from "./practice_Part_2/UseActionState/ActionState";
 
 
 //CC - Controlled Components.
@@ -64,7 +65,8 @@ function App(){
         {/* <DerivedState/> */}
         {/* <Parent/> */}
         {/* <Objects/> */}
-        <Array/>
+        {/* <Array/> */}
+        <ActionState/>
   </div>
   );
 }
