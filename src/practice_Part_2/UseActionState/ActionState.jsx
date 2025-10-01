@@ -39,7 +39,6 @@ export function ActionState(){
 
             {show && data && <h3>Name: {data?.name} <br/> password: {data?.pass}</h3>}
 
-            
         </div>
     )
 }
