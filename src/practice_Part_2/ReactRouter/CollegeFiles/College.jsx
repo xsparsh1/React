@@ -1,4 +1,5 @@
 import {Link, Outlet} from "react-router";
+import { User } from "../DynamicRouting/User";
 
 export function College(){
     return(
@@ -11,6 +12,8 @@ export function College(){
                 <Link to={"/Mca"}><h2>Mca</h2></Link>
                 <Outlet/>
             </div>
+
+            <User/>
             
         </>
     )

@@ -7,6 +7,7 @@ import { College } from "./CollegeFiles/College";
 import { Bca } from "./CollegeFiles/Bca";
 import { Bba } from "./CollegeFiles/Bba";
 import { Mca } from "./CollegeFiles/Mca";
+import { UserDetail } from "./DynamicRouting/UserDetail";
 
 export function Routing(){
     return(
@@ -19,6 +20,7 @@ export function Routing(){
                 <Route path="about" element={<About/>}/>
                 <Route path="login" element={<Login/>}/>
                 <Route path="college" element={<College/>}/>
+                <Route path="userprofile/:id" element={<UserDetail/>}/>
             </Route>
 
             {/* Nested Rotuing Routes */}
