@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router";
 import { Routing } from "./Routing";
-import { Header } from "./Header";
+import { Header } from "./HeaderFiles/Header";
 
 export function MainFile(){
     return(

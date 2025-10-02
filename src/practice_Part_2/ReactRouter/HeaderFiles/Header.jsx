@@ -12,9 +12,9 @@ export function Header(){
 
                 <nav className={style.nav}>   
                     <Link to={"/"}><h2>Home</h2></Link>
-                    <Link to={"/about"}><h2>About</h2></Link>
-                    <Link to={"/login"}><h2>Login</h2></Link>
-                    <Link to={"/College"}><h2>College</h2></Link>
+                    <Link to={"/user/about"}><h2>About</h2></Link>
+                    <Link to={"/user/login"}><h2>Login</h2></Link>
+                    <Link to={"/user/college"}><h2>College</h2></Link>
                 </nav>
             </div>
         </>

@@ -1,21 +1,25 @@
 import { Routes, Route, Navigate} from "react-router";
-import { Home } from "./Home";
-import { Login } from "./Login";
-import { About } from "./About";
+import { Home } from "./HeaderFiles/Home";
+import { Login } from "./HeaderFiles/Login";
+import { About } from "./HeaderFiles/About";
 import { NotFound } from "./404";
-import { College } from "./College";
-import { Bca } from "./Bca";
-import { Bba } from "./Bba";
-import { Mca } from "./Mca";
+import { College } from "./CollegeFiles/College";
+import { Bca } from "./CollegeFiles/Bca";
+import { Bba } from "./CollegeFiles/Bba";
+import { Mca } from "./CollegeFiles/Mca";
 
 export function Routing(){
     return(
         <>
         <Routes>
+
             <Route path="/" element={<Home/>}/>
-            <Route path="/About" element={<About/>}/>
-            <Route path="/Login" element={<Login/>}/>
-            <Route path="/College" element={<College/>}/>
+            
+            <Route path="/user">
+                <Route path="about" element={<About/>}/>
+                <Route path="login" element={<Login/>}/>
+                <Route path="college" element={<College/>}/>
+            </Route>
 
             {/* Nested Rotuing Routes */}
             <Route path="/bca" element={<Bca/>}/>
