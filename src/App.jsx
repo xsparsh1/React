@@ -35,6 +35,7 @@ import { Comp1 } from "./practice_Part_2/ContextApi/1stComp";
 import { MainFile } from "./practice_Part_2/ReactRouter/MainFile";
 import { GetApi } from "./practice_Part_3/Api/GetApi";
 import { JsonServer } from "./practice_Part_3/Api/JsonServer";
+import { PostApi } from "./practice_Part_3/PostApi/PostApi";
 
 
 //CC - Controlled Components.
@@ -78,7 +79,8 @@ function App(){
         {/* <Comp1/> */}
         {/* <MainFile/> */}
         {/* <GetApi/> */}
-        <JsonServer/>
+        {/* <JsonServer/> */}
+        <PostApi/>
   </div>
   );
 }
