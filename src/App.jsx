@@ -37,6 +37,7 @@ import { GetApi } from "./practice_Part_3/Api/GetApi";
 import { JsonServer } from "./practice_Part_3/Api/JsonServer";
 import { PostApi } from "./practice_Part_3/PostApi/PostApi";
 import { DeleteApi } from "./practice_Part_3/DeleteApi/DeleteApi";
+import { PutApi } from "./practice_Part_3/PutApi/PuApi";
 
 
 //CC - Controlled Components.
@@ -82,7 +83,8 @@ function App(){
         {/* <GetApi/> */}
         {/* <JsonServer/> */}
         {/* <PostApi/> */}
-        <DeleteApi/>
+        {/* <DeleteApi/> */}
+        <PutApi/>
   </div>
   );
 }
