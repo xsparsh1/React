@@ -39,6 +39,7 @@ import { PostApi } from "./practice_Part_3/PostApi/PostApi";
 import { DeleteApi } from "./practice_Part_3/DeleteApi/DeleteApi";
 import { PutApi } from "./practice_Part_3/PutApi/PuApi";
 import { Reducer } from "./practice_Part_3/UseReducer/Reducer";
+import { Lazy } from "./practice_Part_3/LazyLoading/Lazy";
 
 
 //CC - Controlled Components.
@@ -86,7 +87,8 @@ function App(){
         {/* <PostApi/> */}
         {/* <DeleteApi/> */}
         {/* <PutApi/> */}
-        <Reducer/>
+        {/* <Reducer/> */}
+        <Lazy/>
   </div>
   );
 }
