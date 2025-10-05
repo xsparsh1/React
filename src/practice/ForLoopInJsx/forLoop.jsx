@@ -24,7 +24,7 @@ function ForLoop(){
     return(
         <div className="div">
             {arr.map((value)=>
-            <div key={value.id}>             {/*React used key to uniquely identify each element in list. */}
+            <div key={value.id}>             {/* React used key to uniquely identify each element in list. */}
                 <h3>{value.name}</h3>
                 <p>Age is {value.age}</p>
             </div>

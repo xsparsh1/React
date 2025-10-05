@@ -12,7 +12,7 @@ function UseFormStatus(){
         const {pending}=useFormStatus();                //Pending tells us the status of form.
         console.log(pending);
         return(                                         //Pending always used inside form.
-        <button type="submit" disabled={pending}>{pending?"Submiting...":"Submit"}</button>
+            <button type="submit" disabled={pending}>{pending?"Submiting...":"Submit"}</button>
         )
     }
     

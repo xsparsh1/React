@@ -29,7 +29,7 @@ export function PostApi(){
             body:JSON.stringify({name,age,id})
         })
 
-        //ifuser added then call connect to get new updated users and set back default values for input feilds.
+        //if user added then call connect to get new updated users and set back default values for input feilds.
         if(response) {
             alert("New User Added");
             connect();

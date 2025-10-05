@@ -2,6 +2,7 @@ import { useRef } from "react";
 
 function UncontrolledComp() {
   const Ref = useRef();
+  const passRef = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -13,7 +14,7 @@ function UncontrolledComp() {
   const handleRefSubmit = (e) => {
     e.preventDefault();
     const name = Ref.current.value;
-    const pass=Ref.current.value;
+    const pass=passRef.current.value;
     console.log("useRef method:", name,pass);
   };
 
@@ -38,7 +39,7 @@ function UncontrolledComp() {
       {/* useRef Method */}
       <form onSubmit={handleRefSubmit}>
         <input style={style} ref={Ref} type="text" id="name2" placeholder="Enter your name" />
-        <input style={style} type="password" id="ph2" placeholder="Enter your password" />
+        <input style={style} ref={passRef} type="password" id="ph2" placeholder="Enter your password" />
         <button style={style} type="submit">Submit</button>
       </form>
     </div>

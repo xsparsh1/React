@@ -1,4 +1,5 @@
 import { lazy, Suspense, useState } from "react";
+
 //lazy make sures react don’t load this component right now, load it only when needed.
 const Demo=lazy(()=>import('./Demo'));
 

@@ -30,7 +30,7 @@ function OnClick(){
     }
     return(
         <div>
-            <button onClick={()=>{func(18)}}>Click to get my age </button> /* we can pass params using arrow function */
+            <button onClick={()=>{func(18)}}>Click to get my age </button> {/*we can pass params using arrow function */}  
         </div>
     )
 }

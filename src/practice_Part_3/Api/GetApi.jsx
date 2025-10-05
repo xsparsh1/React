@@ -11,7 +11,7 @@ export function GetApi(){
     async function makeCall(){
         const url="https://dummyjson.com/users";
         let response=await fetch(url);                  //fetch() returns promise therefore used await 
-        response=await response.json();                 //Sae with json()
+        response=await response.json();                 //Save with json()
         setDetails(response.users);
     }    
 

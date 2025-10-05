@@ -1,5 +1,5 @@
 
-//React.lazy expects export default Demo
+//React.lazy expects default export
 export default function Demo(){
     return (
         <>
