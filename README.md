@@ -3,10 +3,10 @@ It serves as both a learning portfolio and a reference collection for beginners 
 Each folder demonstrates an independent topic or concept with clean, readable code and commit history reflecting continuous learning and experimentation.
 
 # Tech Stack
-React.js — Core library for building user interfaces,
-JavaScript (ES6+) — Logic and data handling,
-HTML5 & CSS3 — Component structure and styling,
-JSON Server (for API Practice) — Simulated backend for CRUD operations
+React.js - Core library for building user interfaces,
+JavaScript (ES6+) - Logic and data handling,
+HTML5 & CSS3 - Component structure and styling,
+JSON Server (for API Practice) - Simulated backend for CRUD operations
 
 # Concepts Covered
 This repo covers everything from fundamentals to advanced React topics, including:
